@@ -31,8 +31,8 @@ header h1{
     display: inline-block;
     font-variant: small-caps;
     font-size: 2em;
-    margin-right: 87px;
-    margin-left: 87px;
+    margin-right: 65px;
+    margin-left: 65px;
     padding: 10px 0px;
     
 }
@@ -122,20 +122,43 @@ span#icon-menu-suspenso{
     background-color: white;
     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.438);
     padding: 25px;
+    
 }
-article>h1{
+section#artigo{
+    margin-bottom:35px ;
+}
+    
+article h1{
     /* font-size: 1.3em; */
     text-align: center;
 }
-article>p{
+article p{
     text-align: justify;
     text-indent: 20px;
     line-height: 30px;
+   
     
 }
 picture >img{
     display: block;
     margin: auto;
+}
+aside{
+    background-color: rgb(196, 196, 196);
+   
+    margin: -25px;
+}
+aside>ul{
+    list-style-type: none;
+    padding: 10px;
+}
+aside li{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    
 }
 footer{
     background-color: #33552C;
