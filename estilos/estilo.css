@@ -118,8 +118,8 @@ span#icon-menu-suspenso2{
   .menu-suspenso:active .link-suspenso {
     background-color: #3e8e41;
   }
-  main{
-    font-size: 4vw;
+  section#artigo{
+    font-size: 1.5em;
   }
 
   article{
@@ -138,6 +138,8 @@ section#artigo{
 article h1{
     font-size: 1.3em;
     text-align: center;
+    font-variant: small-caps;
+    padding-bottom: 10px;
 }
 article p{
     text-align: justify;
@@ -157,6 +159,7 @@ aside{
 aside>h3{
 padding: 5px 15px;
 font-size: 1.3em;
+
 }
 aside>ul{
     list-style-type: none;
@@ -190,6 +193,19 @@ aside>ul>li>a:hover{
     background-color: #33552c96;
     color: white;
     text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.445);
+}
+div.mensagem{
+    margin-top: 20px;
+
+}
+input{
+    border-radius: 5px;
+    padding: 10px 5px;
+    border-color: white;
+}
+textarea{
+    border-radius: 5px;
+
 }
 footer{
     background-color: #33552C;
