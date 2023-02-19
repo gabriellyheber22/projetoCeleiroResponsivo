@@ -2,16 +2,20 @@
 *{
     padding: 0px;
     margin: 0px;
+   
     
 }
 body,html{
     width: 100vw;
     height: 100vh;
+    background-color: white;
 }
+
 
 header{
       background-color: #33552C;
       text-align: center;
+      margin-bottom: 5px;
       
       
    
@@ -53,6 +57,7 @@ menu> ul>li {
     text-indent: 20px;
     list-style-type: none;
     border-top: 1px solid rgb(255, 255, 255);
+    font-size: 1.3em;
 }
 menu>ul>li> a{
     color: white;
@@ -64,4 +69,78 @@ menu>ul>li> a{
 menu>ul>li>a:hover{
     background-color: #60A154;
     text-decoration: underline;
+}
+span#icon-menu-suspenso{
+    display: inline-block;
+    padding: 5px 0px;
+}
+.link-suspenso {
+   
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .menu-suspenso {
+    position: relative;
+    display: block;
+  }
+  
+  .itens-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .itens-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .itens-menu a:active {
+    background-color: #f1f1f1
+}
+  
+  .menu-suspenso:active .itens-menu {
+    display: block;
+  }
+  
+  .menu-suspenso:active .link-suspenso {
+    background-color: #3e8e41;
+  }
+
+  article{
+    margin-top: 10px;
+    width: 80vw;
+    margin: auto;
+    background-color: white;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.438);
+    padding: 25px;
+}
+article>h1{
+    font-size: 1.3em;
+    text-align: center;
+}
+article>p{
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 30px;
+    
+}
+footer{
+    background-color: #33552C;
+    padding: 10px;
+    margin-top: 5px;
+}
+footer>p{
+    color: white;
+    font-weight:lighter;
+    text-align: center;
+   
 }
