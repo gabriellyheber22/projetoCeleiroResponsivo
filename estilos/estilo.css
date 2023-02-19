@@ -194,9 +194,13 @@ aside>ul>li>a:hover{
     color: white;
     text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.445);
 }
+section#fale-conosco{
+    padding: 20px;
+}
 div.mensagem{
     margin-top: 20px;
     width:  78vw;
+    
 
 }
 div.botao{
@@ -210,17 +214,20 @@ input#botao{
 }
 input{
     border-radius: 5px;
-    padding: 10px 5px;
+    /* padding: 10px 30px; */
+    min-width: 90vw;
     border-color: white;
 }
 textarea{
     border-radius: 5px;
+    min-width: 90vw;
 
 }
 footer{
     background-color: #33552C;
     padding: 10px;
     margin-top: 5px;
+    color: white;
 }
 section#rodape{
     color: white;
