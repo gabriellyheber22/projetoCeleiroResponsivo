@@ -142,7 +142,7 @@ article h1{
     padding-bottom: 10px;
 }
 article p{
-    text-align: justify;
+    /* text-align: justify; */
     text-indent: 20px;
     line-height: 30px;
    
