@@ -2,6 +2,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
    
     
 }
@@ -119,7 +120,7 @@ span#icon-menu-suspenso2{
     background-color: #3e8e41;
   }
   section#artigo{
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
 
   article{
