@@ -198,8 +198,9 @@ div.mensagem{
     margin-top: 20px;
 
 }
-div.name{
-    columns: 2;
+div.botao{
+    text-align: right;
+  
 }
 input{
     border-radius: 5px;
