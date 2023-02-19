@@ -2,6 +2,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    
 }
 body,html{
     width: 100vw;
@@ -10,21 +11,43 @@ body,html{
 
 header{
       background-color: #33552C;
+      text-align: center;
       
+      
+   
 }
-header>h1{
+header>img{
+    margin-left: 5px;
+    height:35px;
+    width: 35px;
+    margin-top: 8px;
+}
+header h1{
+    color: white;
     display: inline-block;
-    text-align: center;
+    font-variant: small-caps;
+    font-size: 2em;
+    margin-right: 87px;
+    margin-left: 87px;
+    padding: 10px 0px;
+    
 }
+
 span#icon{
-    display: block;
+    display: inline-block ;
     color: white;
     margin: auto;
-    padding: 20px;
-    text-align: center;
+    padding: 10px 5px;
+    
 }
 span#icon:hover{
-
+    cursor: pointer;
+}
+menu{
+    display: none;
+}
+menu>ul{
+    text-align: left;
 }
 menu> ul>li {
     text-indent: 20px;
