@@ -196,11 +196,17 @@ aside>ul>li>a:hover{
 }
 div.mensagem{
     margin-top: 20px;
+    width:  78vw;
 
 }
 div.botao{
     text-align: right;
+    
   
+}
+input#botao{
+    padding: 10px 50px;
+    
 }
 input{
     border-radius: 5px;
