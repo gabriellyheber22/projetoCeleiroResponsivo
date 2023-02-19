@@ -1,7 +1,20 @@
 @charset "UTF-8";
 /*Estilos únicos da página Bolsista*/
-h2#projetos{
-font-size: 1.1em;
+h1.bolsista{
+    text-align: left;
+    background-color: rgb(177, 177, 177);
+    padding: 15px 0px;
+    padding-right: 100px;
+    margin-bottom: 20px;
+    text-indent: 20px;
+    display: inline-block;
+}
+img#icone-bolsista{
+   margin-bottom: 0px;
+   
+}
+p.p-suspenso{
+    font-weight: bolder;
 }
 p#academicos{
     text-indent: 0px;
@@ -11,6 +24,9 @@ ul#ul-bolsistas{
 }
 ul li>p.p-suspenso{
     background-color: grey;
+}
+ul li{
+    border: 1px solid white;
 }
 span#icon-menu-suspenso{
     display: inline-block;
