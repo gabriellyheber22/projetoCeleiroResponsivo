@@ -12,7 +12,6 @@ body,html{
     background-color: white;
 }
 
-
 header{
       background-color: #33552C;
       text-align: center;
@@ -31,11 +30,10 @@ header h1{
     color: white;
     display: inline-block;
     font-variant: small-caps;
-    font-size: 2em;
+    font-size: 1.3em;
     margin-right: 65px;
     margin-left: 65px;
-    padding: 10px 0px;
-    
+    padding: 10px 0px;  
 }
 
 span#icon{
@@ -119,6 +117,7 @@ span#icon-menu-suspenso2{
   .menu-suspenso:active .link-suspenso {
     background-color: #3e8e41;
   }
+  
   section#artigo{
     font-size: 1.3em;
   }
@@ -129,7 +128,7 @@ span#icon-menu-suspenso2{
     margin: auto;
     background-color: white;
     /* box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.438); */
-    padding: 25px;
+    padding: 8px;
     
 }
 /* main{
@@ -145,9 +144,12 @@ article h1{
     font-variant: small-caps;
     padding-bottom: 10px;
 }
+article h2{
+    font-size: 1.2em;
+}
 article p{
     text-align: justify;
-    text-indent: 20px;
+    text-indent: 30px;
     line-height: 30px;
    
     
