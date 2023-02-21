@@ -1,2 +1,11 @@
 @charset "UTF-8";
 /*Estilos únicos para a página Afasia*/
+div.CartaoArtigo{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: lightgray;
+    display: inline-block;
+}
+p.LinkArtigo{
+    text-indent: 0px;
+}
