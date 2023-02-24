@@ -1,0 +1,21 @@
+@charset "UTF-8";
+div.Parceiros{
+    display: block;
+    border-radius: 10px;
+    margin: auto;
+  
+}
+div.LogoParceiros{
+    display: inline-block;
+    border: 1px solid grey;
+   
+    padding: 10px;
+    width: 200px;
+    height: 275px;
+    margin: 10px;
+    
+}
+img.LogoParceiros {
+    display: block;
+    margin: auto;
+}

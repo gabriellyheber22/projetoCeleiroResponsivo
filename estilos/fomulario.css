@@ -1,0 +1,13 @@
+@charset "UTF-8";
+form{
+    padding: 10px;
+}
+div.DadosPessoais{
+    min-width: 275px;
+    max-width: 600px;
+    display: block;
+    
+}
+input#nome{
+    display: inline-block;
+}
