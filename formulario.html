@@ -54,21 +54,27 @@
 
                     <div class="DadosPessoais">
                         <div class="nome">
-                            <label for="iNome">Nome do Acadêmico</label>
-                            <input type="text" name="nome" id="iNome" min="10" max="30" >
+
+                            <fieldset>
+                                <legend>Nome do Acadêmico</legend>
+
+                                <input type="text" name="nome" id="iNome" min="3" max="15" placeholder="Nome">
+                                <input type="text" name="sobrenome" id="iSobrenome" placeholder="Sobrenome" min="4"
+                                    max="30">
+                            </fieldset>
                         </div>
                         <fieldset>
                             <legend>Endereço</legend>
-                            <label for="iLogradouro">Logradouro</label>
+
                             <input type="text" name="logradouro" id="iLogradouro" placeholder="Rua, Avenida, BR...">
-                            <label for="iNumero">Número:</label>
+
                             <input type="number" name="numero" id="iNumero" placeholder="nº">
-                            <label for="iBairro">Bairro:</label>
+
                             <input type="text" name="bairro" id="iBairro" placeholder="Bairro">
-                            <label for="iCidade">Cidade:</label>
-                            <input type="text" name="cidade" id="icidade">
+
+                            <input type="text" name="cidade" id="icidade" placeholder="Cidade">
                             <select name="estados" id="iEstado">
-                                <option value="" selected>Escolha uma opção</option>
+                                <option value="" selected>UF</option>
                                 <optgroup label="Região Norte">
                                     <option value="AC">Acre</option>
                                     <option value="AP">Amapá</option>
@@ -107,6 +113,29 @@
                                 </optgroup>
                             </select>
                         </fieldset>
+                    </div>
+                    <div class="contato">
+                        <fieldset>
+                            <legend>Contato</legend>
+                            <label for="iTelefone">Celular</label>
+                            <input type="tel" name="telefone" id="iTelefone" pattern="^[0-9]{1} [0-9]{4}-[0-9]{4}$"
+                                required placeholder="00 0 0000-0000">
+                            <label for="iEmail">Email</label>
+                            <input type="email" name="email" id="iEmail" placeholder="Email">
+                        </fieldset>
+                    </div>
+                    <div class="InfoAdicionais">
+                        <fieldset>
+                            <legend>Informações Adicionais</legend>
+                            <label for="iMatricula">Número de Matricula</label>
+                            <input type="number" name="matricula" id="iMatricula" placeholder="Nº Matricula">
+                            <label for="iIngresso">Ingresso</label>
+                            <input type="text" name="ingresso" id="iIgresso" placeholder="2023/01">
+                            
+
+
+                        </fieldset>
+
                     </div>
 
 
