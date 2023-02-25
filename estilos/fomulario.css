@@ -1,11 +1,19 @@
 @charset "UTF-8";
 form{
-    padding: 10px;
-    border: 1px solid grey;
-    border-radius: 10px;
+    padding: 20px;
+   
 }
-div.DadosPessoais{
+input#botao{
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    background-color:  #33552C;
+    margin: 10px;
     
+    
+}
+div#botao{
+    text-align: right;
     
 }
 input, select, fieldset{
@@ -16,6 +24,8 @@ input, select, fieldset{
 }
 fieldset{
     margin: 5px;
+    padding: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.534);
 }
 input#iNome{
     display: inline-block;
@@ -26,5 +36,5 @@ input#iNumero{
     width: 11%;
 }
 input#iBairro, input#iCidade{
-    width: 40%;
+    width: 20%;
 }
