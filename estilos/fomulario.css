@@ -1,13 +1,30 @@
 @charset "UTF-8";
 form{
     padding: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
 }
 div.DadosPessoais{
-    min-width: 275px;
-    max-width: 600px;
-    display: block;
+    
     
 }
-input#nome{
+input, select, fieldset{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+   font-size: medium;
+}
+fieldset{
+    margin: 5px;
+}
+input#iNome{
     display: inline-block;
+    width: 40%;
+  
+}
+input#iNumero{
+    width: 11%;
+}
+input#iBairro, input#iCidade{
+    width: 40%;
 }

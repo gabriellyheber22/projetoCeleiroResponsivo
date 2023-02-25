@@ -25,7 +25,7 @@
             <div class="itemCabecalho">
                 <a href="index.html">
                     <h1>Projeto Celeiro</h1>
-                </a>  
+                </a>
             </div>
             <div class="itemCabecalho">
                 <span id="icon" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
@@ -69,8 +69,8 @@
                                 <legend>Nome do Acadêmico</legend>
 
                                 <input type="text" name="nome" id="iNome" min="3" max="15" placeholder="Nome">
-                                <input type="text" name="sobrenome" id="iSobrenome" placeholder="Sobrenome" min="4"
-                                    max="30">
+
+                                <input type="text" name="sobrenome" id="iNome" placeholder="Sobrenome" min="4" max="30">
                             </fieldset>
                         </div>
                         <fieldset>
@@ -82,7 +82,7 @@
 
                             <input type="text" name="bairro" id="iBairro" placeholder="Bairro">
 
-                            <input type="text" name="cidade" id="icidade" placeholder="Cidade">
+                            <input type="text" name="cidade" id="iCidade" placeholder="Cidade">
                             <select name="estados" id="iEstado">
                                 <option value="" selected>UF</option>
                                 <optgroup label="Região Norte">
@@ -141,24 +141,18 @@
                             <input type="number" name="matricula" id="iMatricula" placeholder="Nº Matricula">
                             <label for="iIngresso">Ingresso</label>
                             <input type="text" name="ingresso" id="iIgresso" placeholder="2023/01">
+                            <label for="iPeriodo">Periodo de Disponibilidade</label>
                             <select name="periodo" id="iPeriodo">
-                                <option value="" selected>Periodo de Disponibilidade</option>
-                                <optgroup >
-                                    <option >Matutino</option>
-                                    <option >Vespertino</option>
-                                    <option >Noturno</option>
+                                <option value="" selected>-------</option>
+                                <optgroup>
+                                    <option>Matutino</option>
+                                    <option>Vespertino</option>
+                                    <option>Noturno</option>
                                 </optgroup>
-                            
-
-
                         </fieldset>
-
                     </div>
-
-
-
-
-
+                    <br>
+                    <div><input type="submit" value="Enviar Formulário"></div>
                 </form>
 
             </section>
