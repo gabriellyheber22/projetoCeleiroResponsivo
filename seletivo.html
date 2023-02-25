@@ -34,11 +34,23 @@
 
 <body onresize="mudouTamanho()">
     <header>
-        <a href="index.html">
-            <img src="imagens/logos/Brasão Unemat - Preto e Branco (200).png " alt="Logo Unemat  ">
-            <h1>Projeto Celeiro</h1>
-        </a>
-        <span id="icon" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <div class="cabecalho">
+            <div class="itemCabecalho">
+                <a href="index.html">
+                    <img src="imagens/logos/Brasão Unemat - Preto e Branco (35).png " alt="Logo Unemat  ">
+                </a>
+            </div>
+            <div class="itemCabecalho">
+                <a href="index.html">
+                    <h1>Projeto Celeiro</h1>
+                </a>
+                
+            </div>
+
+            <div class="itemCabecalho">
+                <span id="icon" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+            </div>
+        </div>
         <menu id="itens">
             <ul>
                 <li class="menu-suspenso" onclick="clickMenuSuspenso()">
