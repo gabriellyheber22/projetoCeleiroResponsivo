@@ -1,0 +1,212 @@
+ @charset "UTF-8";
+
+
+@media screen and (min-width: 768px) and (max-width:991px) {
+
+    /*Menu para Tablet*/
+
+    header {
+        display: block;
+        background-image: linear-gradient(to top , #33552C, rgb(117, 170, 108) );
+        text-align: center;
+        margin-bottom: 2px;
+    }
+
+    header img {
+        display: inline-block;
+        height: 50px;
+        width: 50px;
+        margin-top: 8px;
+    }
+
+    header h1 {
+        font-size: 3em;
+        padding: 10px 10px;
+        display: inline-block;
+    }
+
+    div.cabecalho {
+        display: block;
+        justify-content: start;
+    }
+
+    div.itemCabecalho {
+        display: block;
+        
+    }
+
+    menu {
+        display: block;
+    }
+
+    span#icon {
+        display: none;
+    }
+
+    menu>ul {
+        text-align: start;
+        margin: 0px 10px;
+    }
+
+    menu>ul>li {
+        list-style-type: none;
+        text-align: center;
+        display: inline-block;
+        border-top: none;
+        font-size: 1.1em;
+    }
+
+    menu>ul>li>a {
+        text-indent: 0px;
+    }
+
+    span#icon-menu-suspenso {
+        display: inline-block;
+    }
+
+    span#icon-menu-suspenso2 {
+        display: inline-block;
+    }
+
+    .menu-suspenso {
+        position: relative;
+        display: inline-block;
+    }
+
+    .itens-menu {
+        position: absolute;
+        width: 120%;
+        border-radius: 0px 10px 10px 10px;
+    }
+
+    .itens-menu a {
+        text-indent: 0px;
+    }
+
+    .itens-menu a:hover {
+        background-color: #3e8e41;
+        color: white;
+    }
+
+    .menu-suspenso:hover .itens-menu {
+        display: block;
+    }
+
+    .menu-suspenso:hover .link-suspenso {
+        background-color: #3e8e41;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 991px) {
+    header {
+        display: block;
+        /* text-align: center; */
+        margin-bottom: 2px;
+    }
+
+    header img {
+        height: 35px;
+        display: block;
+        margin-top: 8px;
+    }
+
+    header h1 {
+        font-size: 1.3em;
+        padding: 5px 10px;
+        padding-top: 15px;
+    }
+
+    div.cabecalho {
+        display: flex;
+        justify-content:space-between;
+    }
+
+    div.itemCabecalho {
+        display: flex;
+        justify-content: center;
+    }
+
+    menu {
+        display: block;
+    }
+
+    span#icon {
+        display: none;
+    }
+
+    menu>ul {
+        text-align: start;
+        margin: 0px 10px;
+    }
+
+    menu>ul>li {
+        list-style-type: none;
+        text-align: center;
+        display: inline-block;
+        border-top: none;
+        font-size: 1.1em;
+    }
+
+    menu>ul>li>a {
+        text-indent: 0px;
+    }
+
+    span#icon-menu-suspenso {
+        display: inline-block;
+    }
+
+    span#icon-menu-suspenso2 {
+        display: inline-block;
+    }
+
+    .menu-suspenso {
+        position: relative;
+        display: inline-block;
+    }
+
+    .itens-menu {
+        position: absolute;
+        width: 120%;
+        border-radius: 0px 10px 10px 10px;
+    }
+
+    .itens-menu a {
+        text-indent: 0px;
+    }
+
+    .itens-menu a:hover {
+        background-color: #3e8e41;
+        color: white;
+    }
+
+    .menu-suspenso:hover .itens-menu {
+        display: block;
+    }
+
+    .menu-suspenso:hover .link-suspenso {
+        background-color: #3e8e41;
+    }
+} 

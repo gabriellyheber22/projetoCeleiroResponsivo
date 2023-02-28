@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    div.Atalho-container {
+        height: 180px;
+        columns: 285px 2; 
+    }
+
+    div.itens-atalho {   
+        align-items: center;
+    }
+
+    aside {
+        background-color: rgb(218, 218, 218);
+    }
+    
+    aside li {   
+         width: 280px;
+    }
+
+}

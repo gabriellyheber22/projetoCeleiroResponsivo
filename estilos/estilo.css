@@ -1,4 +1,7 @@
 @charset "UTF-8";
+
+    
+
 *{
     padding: 0px;
     margin: 0px;
@@ -39,13 +42,13 @@ header h1{
     font-size: 1.3em;
     padding: 10px 0px;   
 }
-div.cabecalho{
+div.cabecalhoCelular{
     display: flex;
    justify-content: space-between;
    padding: 8px 10px;
     
 }
-div.itemCabecalho{
+div.itemCabecalhoCelular{
     display: flex;
 
 }
