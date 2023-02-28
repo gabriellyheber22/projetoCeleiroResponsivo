@@ -19,51 +19,52 @@
     <header>
         <div class="cabecalho">
             <div class="cabecalhoCelular">
-            <div class="itemCabecalhoCelular itemCabecalho">
-                <a href="index.html">
-                        <img src="imagens/logos/Brasão Unemat - Preto e Branco (35).png" alt="Logo da UNEMAT">                     
-                </a>
-            </div>
-            <div class="itemCabecalhoCelular itemCabecalho">
-                <a href="index.html">
-                    <h1>Projeto Celeiro</h1>
-                </a>
-            </div>
+                <div class="itemCabecalhoCelular itemCabecalho">
+                    <a href="index.html">
+                        <img src="imagens/logos/Brasão Unemat - Preto e Branco (35).png" alt="Logo da UNEMAT">
+                    </a>
+                </div>
+                <div class="itemCabecalhoCelular itemCabecalho">
+                    <a href="index.html">
+                        <h1>Projeto Celeiro</h1>
+                    </a>
+                </div>
 
-            <div class="itemCabecalhoCelular itemCabecalho">
-                <span id="icon" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+                <div class="itemCabecalhoCelular">
+                    <span id="icon" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+                </div>
+            </div>
+            
+            <div class=" itemCabecalho">
+                <menu id="itens">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li class="menu-suspenso" onclick="clickMenuSuspenso()">
+
+                            <a href="#" class="link-suspenso">O Celeiro<span id="icon-menu-suspenso"
+                                    class="material-symbols-outlined">arrow_drop_down</span></a>
+                            <!--Icone para indicar menu suspenso-->
+
+
+                            <div class="itens-menu" id="itensSuspensos">
+                                <a href="bolsista.html">Bolsistas</a>
+                                <a href="seletivo.html">Seletivo</a>
+                        </li>
+                        <li class="menu-suspenso" onclick="clickMenuSuspenso2()">
+                            <a href="#" class="link-suspenso">Projetos<span id="icon-menu-suspenso2"
+                                    class="material-symbols-outlined">arrow_drop_down</span></a>
+                            <div class="itens-menu" id="itensSuspensos2">
+                                <a href="projetoSigmetamat.html">Projeto Sigmetamat</a>
+                                <a href="projetoAfasia.html">Projeto Afasia</a>
+                        </li>
+                        <li><a href="aplicacoes.html">Aplicações</a></li>
+                        <li><a href="parcerias.html">Parcerias</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                </menu>
             </div>
         </div>
-            <div class=" itemCabecalho">
-            <menu id="itens" >
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li class="menu-suspenso" onclick="clickMenuSuspenso()">
-                        
-                        <a href="#" class="link-suspenso">O Celeiro<span id="icon-menu-suspenso"
-                                class="material-symbols-outlined">arrow_drop_down</span></a>
-                        <!--Icone para indicar menu suspenso-->
-    
-    
-                        <div class="itens-menu" id="itensSuspensos">
-                            <a href="bolsista.html">Bolsistas</a>
-                            <a href="seletivo.html">Seletivo</a>
-                    </li>
-                    <li class="menu-suspenso" onclick="clickMenuSuspenso2()">
-                        <a href="#" class="link-suspenso">Projetos<span id="icon-menu-suspenso2"
-                                class="material-symbols-outlined">arrow_drop_down</span></a>
-                        <div class="itens-menu" id="itensSuspensos2">
-                            <a href="projetoSigmetamat.html">Projeto Sigmetamat</a>
-                            <a href="projetoAfasia.html">Projeto Afasia</a>
-                    </li>
-                    <li><a href="aplicacoes.html">Aplicações</a></li>
-                    <li><a href="parcerias.html">Parcerias</a></li>
-                    <li><a href="login.html" >Login</a></li>
-                </ul>
-            </menu>
-        </div>
-        </div>
-       
+
     </header>
     <main>
         <article>
@@ -79,56 +80,54 @@
                     ambiente de desenvolvimento e produção de software e dispositivos de hardware, dentro do campus de
                     Barra
                     do Bugres.</p>
-                    <br>
-                    <picture>
-                        <source media="(max-width: 500px)" srcset="imagens/programadora(275).jpg" type="image/jpg">
-                        <source media="(max-width:650px)" srcset="imagens/programadora(400).jpg" type="image/jpg">
-                        <source media="(max-width:768px)" srcset="imagens/programadora(650).jpg" type="image/jpg">
-                        <source media="(max-width:991px )" srcset="imagens/programadora(768).jpg" type="image/jpg">
-                        <source media="(max-width:1200px )" srcset="imagens/programadora(991).jpg" type="image/jpg">
-                       
-                        <img src="imagens/programadora .jpg" alt="Imagem Programadora">
-                    </picture>
+                <br>
+                <picture>
+                    <source media="(max-width: 500px)" srcset="imagens/programadora(275).jpg" type="image/jpg">
+                    <source media="(max-width:650px)" srcset="imagens/programadora(400).jpg" type="image/jpg">
+                    <source media="(max-width:768px)" srcset="imagens/programadora(650).jpg" type="image/jpg">
+                    <source media="(max-width:991px )" srcset="imagens/programadora(768).jpg" type="image/jpg">
+                    <source media="(max-width:1200px )" srcset="imagens/programadora(991).jpg" type="image/jpg">
+
+                    <img src="imagens/programadora .jpg" alt="Imagem Programadora">
+                </picture>
 
                 <p>O desenvolvimento de projetos de software utilizando metodologias ágeis com foco na participação
                     ativa
                     dos usuários no projeto de interfaces de software; e o desenvolvimento de artefatos de hardware
                     utilizando a prototipagem de circuitos eletrônicos.</p>
             </section>
-            
+
         </article>
         <section id="atalho">
             <aside>
                 <h3>Atalho</h3>
                 <hr>
                 <br>
-            <div class="Atalho-container">
-                
-                
-                
-                <ul>
-                    <div class="itens-atalho">
-                        <li><a href="https://unemat.br/" target="_blank">UNEMAT</a>
-                    </div>
-                    <div  class="itens-atalho">
-                        <li><a href="http://bbg.unemat.br/" target="_blank">UNEMAT - BARRA DO BUGRES</a>
-                    </div>
-                    <div  class="itens-atalho">
-                        <li><a href="https://sigaa.unemat.br/sigaa/verTelaLogin.do;jsessionid=35FAB2E4669B6A89DE99269CBAA3DDFD.srv1inst1"
-                                target="_blank">SIGAA</a>
-                    </div>
-                    <div  class="itens-atalho">
-                        <li><a href="https://www.facebook.com/caccunemat/?locale=pt_BR" target="_blank">CACC</a>
-                    </div>
-                    <div  class="itens-atalho"
-                    
-                    97[80,]>
-                        <li><a href="https://periodicos.unemat.br/index.php/zeiki" target="_blank">ZEIKI - REVISTA
-                                INTERDICIPLINAR DA
-                                UNEMAT BARRA DO BUGRES</a>
-                    </div>
-                </ul>
-            </div>
+                <div class="Atalho-container">
+
+
+
+                    <ul>
+                        <div class="itens-atalho">
+                            <li><a href="https://unemat.br/" target="_blank">UNEMAT</a>
+                        </div>
+                        <div class="itens-atalho">
+                            <li><a href="http://bbg.unemat.br/" target="_blank">UNEMAT - BARRA DO BUGRES</a>
+                        </div>
+                        <div class="itens-atalho">
+                            <li><a href="https://sigaa.unemat.br/sigaa/verTelaLogin.do;jsessionid=35FAB2E4669B6A89DE99269CBAA3DDFD.srv1inst1"
+                                    target="_blank">SIGAA</a>
+                        </div>
+                        <div class="itens-atalho">
+                            <li><a href="https://www.facebook.com/caccunemat/?locale=pt_BR" target="_blank">CACC</a>
+                        </div>
+                        <div class="itens-atalho" 97[80,]>
+                            <li><a href="https://periodicos.unemat.br/index.php/zeiki" target="_blank">ZEIKI - REVISTA
+                                    INTERDICIPLINAR DA
+                                    UNEMAT BARRA DO BUGRES</a>
+                        </div>
+                    </ul>
+                </div>
             </aside>
         </section>
     </main>
@@ -161,8 +160,8 @@
                     </div>
                     <div>
                         <label for="iMensagem">Mensagem:</label><br>
-                        <textarea name="mensagem" id="iMensagem" rows="5" cols="5" placeholder="Escreva sua Mensagem"
-                           ></textarea>
+                        <textarea name="mensagem" id="iMensagem" rows="5" cols="5"
+                            placeholder="Escreva sua Mensagem"></textarea>
                     </div>
                     <div class="botao">
                         <input type="submit" value="Enviar" id="botao">
@@ -170,7 +169,7 @@
                 </form>
             </div>
         </section>
-        
+
         <section id="rodape">
             <hr>
             <p>Gabrielly Héber Azevedo da Cruz, 2023</p>
