@@ -10,6 +10,9 @@ body, html, main{
     height: 100vh;
     background-color: #33552C;
 }
+header{
+    display: none;
+}
 main{
     position: relative;
     background-image: url("../imagens/logos/Campus-Barra-do-Bugres.jpeg");
@@ -26,7 +29,7 @@ section#login{
     left: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
-    background-attachment: fixed;
+    
     overflow: hidden;
 
 }
@@ -65,13 +68,19 @@ div.campo input:focus-within{
 }
 
 div#imagem{
-    background-image: url("../imagens/logos/monumento-unemat_topo.png");
+   background-image: url("../imagens/logos/Brasão Unemat - Colorido 200.png");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center center;
+    background-position: center center; 
+    width: 275px;
     height: 200px;
     display: block;
+    
    border: 1px solid #33552C;
+}
+div#imagem img{
+    display: block;
+    align-items: center;
 }
 div#formulario{
     display: block;
