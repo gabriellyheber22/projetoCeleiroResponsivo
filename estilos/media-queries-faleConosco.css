@@ -1,0 +1,55 @@
+@charset "UTF-8";
+@media screen and (min-width:768px) {
+    *{
+        box-sizing: border-box;
+    }
+    
+    div.fale-conosco:after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+    div.fale-conosco-item{
+        float: left;
+        width: 40%;
+        padding: 10px;
+        height: 350px;
+    }
+    section#fale-conosco{
+        padding: 5px;
+    }
+    section#fale-conosco h1{
+        font-size: 1.4em;
+    }
+    div.mensagem{
+        margin-top: 0px;
+        width:  50vw;
+        
+    
+    }
+    div.botao{
+        text-align: right;
+        
+      
+    }
+    input#botao{
+        padding: 5px 50px;
+        border-radius: 8px;
+        cursor: pointer;
+        
+        
+    }
+    div.name input{
+        border-radius: 5px;
+        padding: 4px 0px;
+        width: 50vw;
+        border-color: white;
+    }
+    
+    textarea{
+        border-radius: 5px;
+        width: 50vw;
+    
+    }
+    
+}

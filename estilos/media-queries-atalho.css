@@ -29,7 +29,6 @@ Telas grandes acima de 1200*/
 @media screen and (min-width: 1200px) {
     article{
         margin: 2px;
-        
     }
     main {
         position: relative;
@@ -45,24 +44,23 @@ Telas grandes acima de 1200*/
     
     section#atalho {
        position: absolute;
-        
         margin: 0px 10px;
         top: 35%;
         left: 40px;
     }
     aside{
-    padding: 5px 5px;
-    border-radius: 10px;
-    margin: auto;
+        padding: 5px 5px;
+        border-radius: 10px;
+        margin: auto;
     }
     aside a{
          text-shadow: none;
         
     }
     div.Atalho-container {
-        height: 380px;
+        height: 300px;
         columns: 170px 1;
-        width: 300px;
+        width: 280px;
         justify-content: center
         
     }
@@ -74,8 +72,8 @@ Telas grandes acima de 1200*/
 
     div.itens-atalho li {
         list-style: none;
-        padding: 10px 0px;
-        margin: 5px 0px;
+        padding: 1px 0px;
+        margin: 1px 0px;
         text-align: center;
         font-weight: bolder;
         font-size: 1em;

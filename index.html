@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="estilos/estilo.css">
     <link rel="stylesheet" href="estilos/media-queries-atalho.css">
     <link rel="stylesheet" href="estilos/media-queries-menu.css">
+    <link rel="stylesheet" href="estilos/media-queries-faleConosco.css">
 </head>
 
 <body onresize="mudouTamanho()">
@@ -84,7 +85,7 @@
                 </div>
             </div>
         </section>
-       
+
         <article>
             <section id="artigo">
                 <h1>Projeto Celeiro de Software e Hardware</h1>
@@ -115,8 +116,8 @@
                     utilizando a prototipagem de circuitos eletrônicos.</p>
             </section>
         </article>
-    
-    
+
+
         <section id="atalho">
             <aside>
                 <h3>Atalho</h3>
@@ -146,44 +147,46 @@
                 </div>
             </aside>
         </section>
-    
+
     </main>
     <footer>
         <section id="fale-conosco">
             <h1>Fale com o Projeto Celeiro</h1>
             <hr><br>
-            <div class="endereco">
-                <h2>Endereço:</h2>
-                <address>
-                    Rua A, s/nº, Bairro São Raimundo <br>
-                    Barra do Bugres, Mato Grosso <br>
-                    CEP: 78390-000 <br>
-                    Caixa Postal: 14825 <br>
-                </address><br>
-                <h2>Telefone:</h2>
-                <p>
-                    (065) 3361-6450</br>
-                    (065) 9 9972-2833 <br>
-                </p>
-            </div>
-            <div class="mensagem">
-                <h2>Envie sua Mensagem</h2>
-                <form action="https://formsubmit.co/gabiheber22@gmail.com" method="post" autocomplete="on">
-                    <div class="name">
-                        <label for="inome">Nome:</label><br>
-                        <input type="text" name="nome" id="inome" placeholder="Nome">
-                        <br><label for="iEmail">Email:</label><br>
-                        <input type="email" name="email" id="iEmail" placeholder="Email">
-                    </div>
-                    <div>
-                        <label for="iMensagem">Mensagem:</label><br>
-                        <textarea name="mensagem" id="iMensagem" rows="5" cols="5"
-                            placeholder="Escreva sua Mensagem"></textarea>
-                    </div>
-                    <div class="botao">
-                        <input type="submit" value="Enviar" id="botao">
-                    </div>
-                </form>
+            <div class="fale-conosco">
+                <div class="endereco fale-conosco-item">
+                    <h2>Endereço:</h2>
+                    <address>
+                        Rua A, s/nº, Bairro São Raimundo <br>
+                        Barra do Bugres, Mato Grosso <br>
+                        CEP: 78390-000 <br>
+                        Caixa Postal: 14825 <br>
+                    </address><br>
+                    <h2>Telefone:</h2>
+                    <p>
+                        (065) 3361-6450</br>
+                        (065) 9 9972-2833 <br>
+                    </p>
+                </div>
+                <div class="mensagem fale-conosco-item">
+                    <h2>Envie sua Mensagem</h2>
+                    <form action="https://formsubmit.co/gabiheber22@gmail.com" method="post" autocomplete="on">
+                        <div class="name">
+                            <label for="inome">Nome:</label><br>
+                            <input type="text" name="nome" id="inome" placeholder="Nome">
+                            <br><label for="iEmail">Email:</label><br>
+                            <input type="email" name="email" id="iEmail" placeholder="Email">
+                        </div>
+                        <div>
+                            <label for="iMensagem">Mensagem:</label><br>
+                            <textarea name="mensagem" id="iMensagem" rows="5" 
+                                placeholder="Escreva sua Mensagem"></textarea>
+                        </div>
+                        <div class="botao">
+                            <input type="submit" value="Enviar" id="botao">
+                        </div>
+                    </form>
+                </div>
             </div>
         </section>
 
