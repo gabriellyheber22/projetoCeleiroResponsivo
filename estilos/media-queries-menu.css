@@ -55,11 +55,15 @@
         border-top: none;
         font-size: 1.1em;
     }
+    
+
 
     menu>ul>li>a {
         text-indent: 0px;
     }
-
+    menu>ul>li>a:hover{
+        color: rgb(219, 219, 219);
+    }
     span#icon-menu-suspenso {
         display: inline-block;
     }
@@ -172,6 +176,9 @@
 
     menu>ul>li>a {
         text-indent: 0px;
+    }
+    menu>ul>li>a:hover{
+        color: rgb(219, 219, 219);
     }
 
     span#icon-menu-suspenso {
