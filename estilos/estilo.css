@@ -173,6 +173,9 @@ article p{
    
     
 }
+picture{
+    width: 100%;
+}
 picture >img{
     display: block;
     margin: auto;

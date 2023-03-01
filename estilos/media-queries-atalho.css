@@ -1,7 +1,11 @@
 @charset "UTF-8";
+/*Tela pequenas até 600px
+Celulares de 600px até 768px
+Tablets de 768px até 992px
+Desktop de 992px até 1200px
+Telas grandes acima de 1200*/
 
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
     div.Atalho-container {
         height: 180px;
         columns: 285px 2;
@@ -21,8 +25,11 @@
 
 }
 
-@media screen and (min-width: 991px) {
-
+@media screen and (min-width: 1200px) {
+    article{
+        margin: 2px;
+        
+    }
     main {
         position: relative;
     }
@@ -30,20 +37,26 @@
         background-color: white;
         padding: 10px;
         display: block;
-        margin-left: auto;
+        margin-left: 40%;
         width: 900px;
         text-indent: 30px;
     }
-
+    
     section#atalho {
-        position: absolute;
-        border-radius: 10px;
-        margin: 5px;
-        top: 50%;
+       position: absolute;
+        
+        margin: 0px 10px;
+        top: 35%;
+        left: 40px;
     }
     aside{
     padding: 5px 5px;
+    border-radius: 10px;
     margin: auto;
+    }
+    aside a{
+         text-shadow: none;
+        
     }
     div.Atalho-container {
         height: 380px;
