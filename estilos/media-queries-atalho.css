@@ -4,19 +4,67 @@
 @media screen and (min-width: 768px) and (max-width: 991px) {
     div.Atalho-container {
         height: 180px;
-        columns: 285px 2; 
+        columns: 285px 2;
     }
 
-    div.itens-atalho {   
+    div.itens-atalho {
         align-items: center;
     }
 
     aside {
         background-color: rgb(218, 218, 218);
     }
-    
-    aside li {   
-         width: 280px;
+
+    aside li {
+        width: 280px;
+    }
+
+}
+
+@media screen and (min-width: 991px) {
+
+    main {
+        position: relative;
+    }
+    section#artigo {
+        background-color: white;
+        padding: 10px;
+        display: block;
+        margin-left: auto;
+        width: 900px;
+        text-indent: 30px;
+    }
+
+    section#atalho {
+        position: absolute;
+        border-radius: 10px;
+        margin: 5px;
+        top: 50%;
+    }
+    aside{
+    padding: 5px 5px;
+    margin: auto;
+    }
+    div.Atalho-container {
+        height: 380px;
+        columns: 170px 1;
+        width: 300px;
+        justify-content: center
+        
+    }
+    ul#lista-atalho{
+       margin: 0px;
+       padding: 0px;
+        
+    }
+
+    div.itens-atalho li {
+        list-style: none;
+        padding: 10px 0px;
+        margin: 5px 0px;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 1em;
     }
 
 }

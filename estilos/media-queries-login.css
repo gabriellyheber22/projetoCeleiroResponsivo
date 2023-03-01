@@ -5,7 +5,7 @@ Celulares de 600px até 768px
 Tablets de 768px até 992px
 Desktop de 992px até 1200px
 Telas grandes acima de 1200*/
-@media screen and (min-width: 768px) and (max-width: 992px){
+@media screen and (min-width: 768px) and (max-width: 991px){
     section#login{
         
         width: 80vw;
@@ -48,7 +48,7 @@ Telas grandes acima de 1200*/
         width: 50%;
         height: 100%;
     }
-    div#formulario h1{
+    div#formulario h1.formulario{
         font-size: 2em;
     }
     div#formulario p{

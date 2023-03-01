@@ -33,7 +33,7 @@ ul#ul-bolsistas{
 ul li>p.p-suspenso{
     background-color: grey;
 }
-ul li{
+ul li.li-bolsistas{
     border: 1px solid white;
 }
 span#icon-menu-suspenso{
