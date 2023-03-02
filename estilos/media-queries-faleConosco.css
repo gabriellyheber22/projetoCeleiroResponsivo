@@ -13,7 +13,7 @@
         float: left;
         width: 40%;
         padding: 10px;
-        height: 350px;
+        height: 300px;
     }
     section#fale-conosco{
         padding: 5px;
@@ -41,7 +41,7 @@
     }
     div.name input{
         border-radius: 5px;
-        padding: 4px 0px;
+        padding: 2px 0px;
         width: 50vw;
         border-color: white;
     }
@@ -49,6 +49,7 @@
     textarea{
         border-radius: 5px;
         width: 50vw;
+        height: 100px;
     
     }
     

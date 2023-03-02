@@ -141,12 +141,12 @@ span#icon-menu-suspenso2{
   }
 
   article{
-    margin-top: 10px;
-    width: 78vw;
-    margin: auto;
+    width: 95vw; 
+    margin: auto; 
+    text-align: center;
     background-color: white;
     /* box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.438); */
-    padding: 8px;
+    padding: 8px 2px;
     
 }
 /* main{
@@ -170,6 +170,7 @@ article p{
     text-align: justify;
     text-indent: 30px;
     line-height: 30px;
+    padding: 0px;
    
     
 }
@@ -192,9 +193,9 @@ padding: 5px 15px;
 font-size: 1.3em;
 
 }
-aside>ul{
+ul#lista-atalho{
     list-style-type: none;
-    padding: 10px 5px;
+    padding: 10px 16px;
 }
 aside li{
     background-color: rgb(255, 255, 255);
@@ -234,6 +235,7 @@ div.mensagem{
     
 
 }
+
 div.botao{
     text-align: right;
     
@@ -259,7 +261,7 @@ textarea{
 }
 footer{
     background-color: #33552C;
-    padding: 10px;
+    /* padding: 10px; */
     margin-top: 5px;
     color: white;
 }
@@ -267,6 +269,8 @@ section#rodape{
     color: white;
     font-weight:lighter;
     text-align: center;
-    padding: 10px 0px;
-   
+    padding: 3px 0px;
+}
+section#rodape p{
+    margin-bottom: 0px;
 }

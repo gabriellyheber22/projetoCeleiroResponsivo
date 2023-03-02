@@ -10,16 +10,19 @@ Telas grandes acima de 1200*/
         height: 180px;
         columns: 285px 2;
     }
-
+    article{
+        width: 78vw;
+    }
+    section#artigo {
+        
+        text-indent: 30px;
+    }
     div.itens-atalho {
         align-items: center;
     }
-    
-
     aside {
         background-color: rgb(218, 218, 218);
     }
-
     aside li {
         width: 280px;
     }
@@ -29,10 +32,12 @@ Telas grandes acima de 1200*/
 @media screen and (min-width: 1200px) {
     article{
         margin: 2px;
+        width: 78vw;
     }
     main {
         position: relative;
     }
+    
     section#artigo {
         background-color: white;
         padding: 10px;
@@ -41,7 +46,6 @@ Telas grandes acima de 1200*/
         width: 900px;
         text-indent: 30px;
     }
-    
     section#atalho {
        position: absolute;
         margin: 0px 10px;
