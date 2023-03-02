@@ -10,7 +10,7 @@ Telas grandes acima de 1200*/
         height: 180px;
         columns: 285px 2;
     }
-    article{
+    article#article{
         width: 78vw;
     }
     section#artigo {
@@ -32,6 +32,9 @@ Telas grandes acima de 1200*/
 @media screen and (min-width: 1200px) {
     article{
         margin: 2px;
+       
+    }
+    article#article{
         width: 78vw;
     }
     main {
