@@ -45,14 +45,14 @@ Telas grandes acima de 1200*/
         background-color: white;
         padding: 10px;
         display: block;
-        margin-left: 40%;
+        margin-left: 36%;
         width: 900px;
         text-indent: 30px;
     }
     section#atalho {
        position: absolute;
         margin: 0px 10px;
-        top: 35%;
+        top: 32%;
         left: 40px;
     }
     aside{
