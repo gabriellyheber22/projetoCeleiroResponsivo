@@ -39,6 +39,7 @@ header img {
 header h1 {
     color: white;
     font-size: 1.3em;
+    font-weight: bold;
     padding: 10px 0px;
 }
 
@@ -75,6 +76,7 @@ menu>ul>li {
     list-style-type: none;
     border-top: 1px solid rgb(255, 255, 255);
     font-size: 1.3em;
+    margin-top: 15px;
 }
 
 menu>ul>li>a {
@@ -103,7 +105,7 @@ span#icon-menu-suspenso2 {
 .link-suspenso {
 
     color: white;
-    padding: 10px;
+    padding: 0px 25px;
     border: none;
     cursor: pointer;
 }
