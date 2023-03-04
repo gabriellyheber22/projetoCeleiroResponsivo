@@ -1,0 +1,18 @@
+@charset "UTF-8";
+div.Editais {
+    display: block;
+}
+div.DocEditais{
+    display: inline-block;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+div.InfoEditais{
+    display: inline-block;
+    text-indent: none;
+}
+div.InfoEditais p{
+    text-indent: 0px;
+    text-align: left;
+}
