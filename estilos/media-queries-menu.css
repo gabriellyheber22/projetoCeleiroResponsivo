@@ -177,7 +177,7 @@
 
     menu>ul {
         text-align: start;
-        margin: -20px 10px;
+        margin: -20px 0px;
         padding: 0px;
     }
 
@@ -217,7 +217,7 @@
 
     .itens-menu {
         position: absolute;
-        width: 120%;
+        /* width: 120%; */
         border-radius: 0px 10px 10px 10px;
     }
 
@@ -236,6 +236,7 @@
 
     .menu-suspenso:hover .link-suspenso {
         background-color: #60A154;
+        padding: 0px 10px;
     }
      /*Estilização do Carrossel*/
      img.d-block{
