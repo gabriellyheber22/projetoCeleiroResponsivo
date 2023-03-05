@@ -75,7 +75,7 @@ menu>ul>li {
     text-indent: 20px;
     list-style-type: none;
     border-top: 1px solid rgb(255, 255, 255);
-    font-size: 1.3em;
+    font-size: 1rem;
     margin-top: 15px;
 }
 
@@ -186,7 +186,7 @@ article#article {
 }
 /*Estilização da Seção de Artigo*/
 section#artigo {
-    font-size: 1.3em;
+    font-size: 1rem;
 }
 
 section#artigo {
