@@ -9,6 +9,7 @@
         display: block;
         background-image: linear-gradient(to top , #33552C, rgb(117, 170, 108) );
         text-align: center;
+        margin: 0px;
         
     }
 
@@ -16,12 +17,12 @@
         display: inline-block;
         height: 50px;
         width: 50px;
-        margin-top: 8px;
+        /* margin-top: 8px; */
     }
 
     header h1 {
         font-size: 3em;
-        padding: 10px 10px;
+        padding: 0px 10px;
         display: inline-block;
     }
 
@@ -45,7 +46,8 @@
 
     menu>ul {
         text-align: start;
-        margin: 0px 10px;
+        padding: 0px;
+        margin: 0px ; 
     }
 
     menu>ul>li {
@@ -79,8 +81,8 @@
 
     .itens-menu {
         position: absolute;
-        width: 120%;
-        border-radius: 0px 10px 10px 10px;
+         /* width: 120%;  */
+        border-radius: 10px 10px 10px 10px;
     }
 
     .itens-menu a {
@@ -90,6 +92,10 @@
     .itens-menu a:hover {
         background-color: #3e8e41;
         color: white;
+        overflow: hidden;
+        border-radius: 10px 0px 10px 10px;
+        
+       
     }
 
     .menu-suspenso:hover .itens-menu {
@@ -140,22 +146,28 @@
     header img {
         height: 35px;
         display: block;
-        margin-top: 8px;
+         margin-top: 0px; 
     }
 
     header h1 {
         font-size: 1.5em;
         padding: 5px 10px;
-        padding-top: 15px;
+        margin: 0px;
+        /* padding-top: 15px; */
+    }
+    div.cabecalhoCelular{
+    padding: 0px 0px ;
+    margin: 0px;
     }
 
     div.cabecalho {
         display: flex;
         justify-content:space-between;
+        
     }
 
     div.itemCabecalho {
-       
+       margin: 10px  ;
         justify-content: center;
     }
 
@@ -169,7 +181,8 @@
 
     menu>ul {
         text-align: start;
-        margin: 0px 10px;
+        margin: -20px 10px;
+        padding: 0px;
     }
 
     menu>ul>li {
@@ -182,17 +195,22 @@
 
     menu>ul>li>a {
         text-indent: 0px;
+        padding: 5px 10px;
     }
     menu>ul>li>a:hover{
         color: rgb(219, 219, 219);
     }
-
-    span#icon-menu-suspenso {
+    .link-suspenso {
+        padding: 5px 10px;  
+    }
+    span#icon-menu-suspenso.material-symbols-outlined {
         display: inline-block;
+        padding: 0px 0px;
     }
 
-    span#icon-menu-suspenso2 {
+    span#icon-menu-suspenso2.material-symbols-outlined {
         display: inline-block;
+        padding: 0px 0px;
     }
 
     .menu-suspenso {
