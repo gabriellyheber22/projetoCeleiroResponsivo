@@ -138,9 +138,7 @@
 
 @media screen and (min-width: 991px) {
     header {
-        display: block;
-        /* text-align: center; */
-        
+        display: block;       
     }
 
     header img {
@@ -153,7 +151,6 @@
         font-size: 1.5em;
         padding: 5px 10px;
         margin: 0px;
-        /* padding-top: 15px; */
     }
     div.cabecalhoCelular{
     padding: 0px 0px ;
@@ -163,7 +160,6 @@
     div.cabecalho {
         display: flex;
         justify-content:space-between;
-        
     }
 
     div.itemCabecalho {
@@ -198,11 +194,12 @@
         padding: 5px 10px;
     }
     menu>ul>li>a:hover{
-        color: rgb(219, 219, 219);
+        color: rgb(255, 255, 255);
     }
     .link-suspenso {
         padding: 5px 10px;  
     }
+    
     span#icon-menu-suspenso.material-symbols-outlined {
         display: inline-block;
         padding: 0px 0px;
@@ -229,7 +226,7 @@
     }
 
     .itens-menu a:hover {
-        background-color: #3e8e41;
+        background-color: #60A154;
         color: white;
     }
 
@@ -238,7 +235,7 @@
     }
 
     .menu-suspenso:hover .link-suspenso {
-        background-color: #3e8e41;
+        background-color: #60A154;
     }
      /*Estilização do Carrossel*/
      img.d-block{
