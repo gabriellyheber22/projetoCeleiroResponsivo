@@ -127,14 +127,16 @@ span#icon-menu-suspenso2 {
     width: 100%;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    
 }
 
 .itens-menu a {
     color: black;
     font-weight: lighter;
-    padding: 12px 16px;
+    padding: 10px 16px;
     text-decoration: none;
     display: block;
+    text-align: left;
 }
 
 .itens-menu a:active {
