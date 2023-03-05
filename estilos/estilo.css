@@ -92,6 +92,7 @@ menu>ul>li>a {
 menu>ul>li>a:hover {
     background-color: #60A154;
     text-decoration: underline;
+    color: white;
 }
 /*Estilizações dos Item flutuante do Menu*/
 span#icon-menu-suspenso {
@@ -122,7 +123,6 @@ span#icon-menu-suspenso2 {
 
 .itens-menu {
     display: none;
-    /* position: absolute; */
     background-color: #f9f9f9;
     width: 100%;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -138,7 +138,10 @@ span#icon-menu-suspenso2 {
     display: block;
     text-align: left;
 }
-
+.itens-menu a:hover{
+    background-color: #60A154;
+    color: white;
+}
 .itens-menu a:active {
     background-color: #f1f1f1
 }
