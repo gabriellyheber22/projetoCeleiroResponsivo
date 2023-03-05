@@ -9,7 +9,7 @@
         display: block;
         background-image: linear-gradient(to top , #33552C, rgb(117, 170, 108) );
         text-align: center;
-        margin-bottom: 2px;
+        
     }
 
     header img {
@@ -134,7 +134,7 @@
     header {
         display: block;
         /* text-align: center; */
-        margin-bottom: 2px;
+        
     }
 
     header img {
