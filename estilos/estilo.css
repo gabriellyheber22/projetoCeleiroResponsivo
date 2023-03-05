@@ -202,9 +202,6 @@ section#artigo {
 section#artigo {
     margin-bottom: 35px;
 }
-/* main{
-    width: 100vw;
-} */
 
 /*Estilização da tag Picture*/
 picture {
@@ -301,7 +298,7 @@ textarea {
 footer {
     background-color: #33552C;
     /* padding: 10px; */
-    margin-top: 5px;
+    /* margin-top: 5px; */
     color: white;
 }
 
